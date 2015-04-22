@@ -3,6 +3,6 @@
   <modules>
     <artifact id="servlet-filter-test" groupId="org.lilyproject"
               artifactId="servlet-integration-test-module"
-              version="2.6"/>
+              version="2.6.1"/>
   </modules>
 </wiring>
