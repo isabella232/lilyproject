@@ -21,13 +21,13 @@
   <groupId>org.lilyproject</groupId>
   <artifactId>lily-runtime-genclassloader-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>2.6.1</version>
+  <version>2.6.2-SNAPSHOT</version>
   <name>Lily Runtime ::: CLASSLOADER GENERATION MAVEN PLUGIN</name>
 
   <parent>
     <groupId>org.lilyproject</groupId>
     <artifactId>lily-runtime-parent</artifactId>
-    <version>2.6.1</version>
+    <version>2.6.2-SNAPSHOT</version>
     <relativePath>../..</relativePath>
   </parent>
   

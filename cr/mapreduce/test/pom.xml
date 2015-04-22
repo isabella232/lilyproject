@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.lilyproject</groupId>
     <artifactId>lily-mapreduce-parent</artifactId>
-    <version>2.6.1</version>
+    <version>2.6.2-SNAPSHOT</version>
     <relativePath>../</relativePath>
   </parent>
 
@@ -48,7 +48,7 @@
       <groupId>org.lilyproject</groupId>
       <artifactId>lily-mapreduce-test-jobs</artifactId>
       <classifier>mapreduce-job</classifier>
-      <version>2.6.1</version>
+      <version>2.6.2-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
