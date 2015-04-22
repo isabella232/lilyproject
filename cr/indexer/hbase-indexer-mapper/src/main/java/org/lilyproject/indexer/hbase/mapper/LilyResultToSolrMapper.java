@@ -530,12 +530,14 @@ public class LilyResultToSolrMapper implements LResultToSolrMapper,Configurable 
             // (note that IndexAwareMQFeeder only sends events to us if either the current or old record
             //  state matched the inclusion rules)
 
-            solrUpdateWriter.deleteByQuery("lily.id:" + ClientUtils.escapeQueryChars(vtRecord.getId().toString()));
+            //commenting out because we don't want to delete a record that may have been indexed by another indexer
 
-            if (log.isDebugEnabled()) {
-                log.debug(String.format("Record %1$s: no index case found, record deleted from index.",
-                        vtRecord.getId()));
-            }
+            //solrUpdateWriter.deleteByQuery("lily.id:" + ClientUtils.escapeQueryChars(vtRecord.getId().toString()));
+
+            //if (log.isDebugEnabled()) {
+            //    log.debug(String.format("Record %1$s: no index case found, record deleted from index.",
+            //            vtRecord.getId()));
+            //}
 
             // The data from this record might be denormalized into other index entries
             // After this we go to update denormalized data
