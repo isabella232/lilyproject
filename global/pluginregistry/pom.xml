@@ -22,13 +22,13 @@
   <groupId>org.lilyproject</groupId>
   <artifactId>lily-pluginregistry-parent</artifactId>
   <packaging>pom</packaging>
-  <version>2.6</version>
+  <version>2.6.1-SNAPSHOT</version>
   <name>Lily: pluginregistry parent</name>
 
   <parent>
     <groupId>org.lilyproject</groupId>
     <artifactId>lily</artifactId>
-    <version>2.6</version>
+    <version>2.6.1-SNAPSHOT</version>
     <relativePath>../..</relativePath>
   </parent>
 
